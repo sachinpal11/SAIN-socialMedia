@@ -2,7 +2,7 @@ import React from 'react'
 import { RiThumbUpLine, RiThumbDownLine, RiSendPlane2Fill, RiMessage3Fill } from "react-icons/ri";
 function PostCard({ item }) {
   return (
-    <div className='h-auto w-[90%] bg-white rounded-2xl p-5 flex flex-col sm:w-[70%]'>
+    <div className='h-auto w-[96%] bg-white rounded-2xl p-5 flex flex-col sm:w-[70%]'>
       <span className='text-xl font-semibold'>User_{item.userId}</span>
       <span>
         {item.title}

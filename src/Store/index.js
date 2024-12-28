@@ -21,6 +21,7 @@ const SidebarToggleSlice = createSlice({
     initialState: false,
     reducers: {
         ToggleSideBar: (state) => {
+            console.log(state);
             return !state;
         }
     }
